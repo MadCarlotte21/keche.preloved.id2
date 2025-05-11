@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>keche.preloved.id</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    :root {
+      --pink-milk: #f8c1cc;
+      --pink-dark: #d65a77;
+      --pink-light: #fdedf1;
+      --text-dark: #4a2c34;
+      --text-light: #8c4a59;
+      --bg-color: var(--pink-light);
+      --radius: 14px;
+      --shadow-pink: rgba(214, 90, 119, 0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-dark);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
+      padding: 1.5rem 1rem;
+    }
+
+    header {
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: var(--pink-dark);
+      margin-bottom: 1.8rem;
+      letter-spacing: 0.1em;
+      user-select: none;
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    main.profile-card {
+      background: #fff9fb;
+      border-radius: var(--radius);
+      max-width: 400px;
+      width: 100%;
+      padding: 2rem 1.5rem 2.5rem;
+      box-shadow: 0 8px 20px var(--shadow-pink);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-name {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--pink-dark);
+      margin-bottom: 0.25rem;
+      user-select: text;
+    }
+
+    .profile-username {
+      font-size: 1rem;
+      color: var(--text-light);
+      margin-bottom: 1rem;
+      user-select: text;
+    }
+
+    .social-buttons {
+      display: flex;
+      gap: 1rem;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .social-button {
+      flex: 1 1 100px;
+      background-color: var(--pink-milk);
+      border: none;
+      border-radius: var(--radius);
+      padding: 0.8rem 1rem;
+      font-weight: 600;
+      color: var(--pink-dark);
+      text-align: center;
+      font-size: 1.1rem;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 3px 10px var(--shadow-pink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        box-shadow 0.3s ease;
+      user-select: none;
+    }
+    .social-button:hover,
+    .social-button:focus {
+      background-color: var(--pink-dark);
+      color: var(--pink-light);
+      box-shadow: 0 6px 18px var(--shadow-pink);
+      outline: none;
+    }
+
+    .social-button svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 360px) {
+      main.profile-card {
+        padding: 1.5rem 1rem 2rem;
+      }
+      .social-button {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>keche.preloved.id</header>
+  <main class="profile-card" role="region" aria-label="Profil sosial media keche.preloved.id">
+    <h1 class="profile-name">Keche Preloved</h1>
+    <p class="profile-username">@keche.preloved.id</p>
+    <nav class="social-buttons" aria-label="Tombol media sosial keche preloved">
+      <a href="https://www.tiktok.com/@keche.preloved?_t=ZS-8wGsycsWu6T&_r=1" target="_blank" rel="noopener" class="social-button" aria-label="Tiktok Keche Preloved">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 3C9 2.44772 9.44772 2 10 2H14C14.5523 2 15 2.44772 15 3V9.14502C14.3402 8.6445 13.4882 8.39973 12.63 8.48002C11.5667 8.57879 10.605 9.19571 10.05 10.17C9.87771 10.46 9.456 10.429 9.41 10.104V3Z" fill="currentColor"/></svg>
+        TikTok
+      </a>
+      <a href="https://www.instagram.com/kechepreloved.id?igsh=MTBrdTIwMjA4YTV2dQ==" target="_blank" rel="noopener" class="social-button" aria-label="Instagram Keche Preloved">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm11 2.875a.88.88 0 1 1 0 1.76.88.88 0 0 1 0-1.76zM12 8.838A3.162 3.162 0 0 1 15.163 12 3.162 3.162 0 0 1 12 15.163 3.162 3.162 0 0 1 8.837 12 3.162 3.162 0 0 1 12 8.838zm7 8.297c0 1.167-1.055 2.121-2.382 2.121H7.382C6.056 19.255 5 18.301 5 17.135V10h2.121A5.5 5.5 0 0 0 12 15.635 5.5 5.5 0 0 0 19 10h2v7.135z" fill="currentColor"/></svg>
+        Instagram
+      </a>
+      <a href="https://wa.me/628977228441" target="_blank" rel="noopener" class="social-button" aria-label="WhatsApp Keche Preloved">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.52 3.48A11.911 11.911 0 0 0 3.48 20.52L2 22l1.5-5.43A11.911 11.911 0 0 0 20.52 3.48zm-.846 16.05a10.931 10.931 0 0 1-15.576-15.58c4.228-4.223 11.09-4.18 15.345 0.077a10.888 10.888 0 0 1-.077 15.503zM9.75 7.5c-.412 0-1.722.533-2.21 1.88-.49 1.35.028 2.672 1.102 4.11 0 0 2.12 4.12 5.727 4.12 1.396 0 2.126-.44 2.738-.843.527-.336.76-.63.867-.82.05-.09.08-.16.11-.211l.005-.01a.407.407 0 0 0 0-.28c-.025-.086-.18-.338-.25-.424-.07-.086-.14-.102-.21-.14-.07-.037-.16-.086-.24-.135-.08-.05-.34-.316-.42-.427-.08-.102-.16-.117-.24-.134-.08-.016-.164-.015-.25-.015h-.11c-.08 0-.424.14-.724.64-.3.5-1.152 1.33-1.388 1.43-.24.09-.46.126-.67.075-.22-.055-.9-.33-1.635-1.017-.72-.627-1.19-1.382-1.327-1.57-.136-.188-.01-.286.095-.383.108-.1.24-.26.363-.39.12-.13.16-.215.23-.35.07-.136.03-.255-.02-.357-.05-.102-.848-2.042-1.18-2.79z" fill="currentColor"/></svg>
+        WhatsApp
+      </a>
+    </nav>
+  </main>
+</body>
+</html>
+
